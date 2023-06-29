@@ -20,14 +20,18 @@ However, an evident solution to this issue is present in the world of Machine Le
 sign language differs significantly from American sign.</p>
     <br>
 
-  <hr>
-    <div>
-      
+  <div>
     <p><b>💡 SOLUTION:</b></p>
-    <p>&emsp;&emsp;&emsp;A.Image Capture This is the first stepinsignrecognition.Camera interfacing isa verycriticalpart.Webcamera isused to capture the hand
-gesture. Now web camera is also inbuiltinlaptops&one can use external cameraforinterfacing.Butcapturedimagesneed to be in high definition. So selection of good webcam & its interfacing is an importanttask of this method.</p>
-     <br>
-     </div>
+    <p>&emsp;&emsp;&emsp;<h2>A.Image Capture:</h2>
+This is the first stepinsignrecognition.Camera interfacing isa verycriticalpart.Webcamera isused to capture the hand gesture. Now web camera is also inbuiltinlaptops&one can use external cameraforinterfacing.Butcapturedimagesneed to be in high definition. So selection of good webcam & its interfacing is an importanttask of this method.
+<h2>B. Image Preprocessing:</h2>
+Image preprocessing contains cropping, filtering, brightness &contrast adjustment & many more. To do such process Image enhancement, Image cropping & Image
+Segmentation methods are used. Captured Images are inithe form of iRGB. So the first step is to convert RGB images to binary images then cropping of image is to be done so that unwanted part of i images can be removed. And now enhancement can be done in certain selected area. In Image segmentation, Edge detection method is used which can detectthe boundary of cropped images which is furtherused for feature extraction method.
+      
+<h2>C. Feature Extraction:</h2>
+Feature extractioni is avery useful step to create the databaseofsignrecognition.Tocharacterizethediversevisual principles of letters in manual alphabet efficiently and effectively, both the global visual features and the local visual features are extracted for letter image similarity characterization There are mainly two types of feature extraction method involved in sign recognition, First is Contour-based shape representation iand descriptioni methods &I another is Region-based shape representation and description methods. Among those depending on application methods are selected.
+</p>
+    </div>
 
    
  
@@ -39,12 +43,6 @@ gesture. Now web camera is also inbuiltinlaptops&one can use external camerafori
 ![System Workflow](https://user-images.githubusercontent.com/108861190/234074536-4daa420c-8e44-4066-9141-e03402cafd9b.png)
 
 
-<p><b>📄 RESOURCES:</b></p>
 
-   <table>
-   <tr>
-    <td><a href="https://universe.roboflow.com/binary-brains/ppe-detection-npas4/dataset/2"> ▸ View Dataset</a></td>
-    <td><a href="https://drive.google.com/drive/folders/1l3GD8ihdwSPn8iPG77oydS-V9cp3U_sZ?usp=sharing"> ▸ Click to find more Resources</a><br></td>
-   </tr>
-   </table>
+
   </body>
